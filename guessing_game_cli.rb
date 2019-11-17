@@ -1,10 +1,10 @@
 # Code your solution here!
 # def run_guessing_game
 #   random_guess = rand(6)+ 1 
-user_input
-#   gets 
+user_input = gets.chomp 
+#   if user_input = "exit"
 #   puts "Goodbye!"
-#   if rand > 5
+#   elsif user_input.
 #     puts "Sorry! The computer guessed <6>."
 #     elsif
 #     rand < 6 
