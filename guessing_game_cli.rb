@@ -4,9 +4,10 @@
 user_input = gets.chomp 
 #   if user_input = "exit"
 #   puts "Goodbye!"
-#   elsif user_input.
-#     puts "Sorry! The computer guessed <6>."
-#     elsif
+#   elsif user_input.to_i = random_guess
+print "You guessed the correct number!"
+#     else
+
 #     rand < 6 
 #     puts "You guessed the correct number!"
 # end  
