@@ -18,11 +18,10 @@ def run_guessing_game
   user_input.gets 
   if user_input = 'exit'
   puts "Goodbye!"
-  elsif rand > 6
-    puts "Sorry! The computer guessed <number>."
-    elsif
-    rand < 6 
-    puts "You guessed the correct number!"
+  elsif user_input.to.i == rand()
+    print "Sorry! The computer guessed <number>."
+  else
+   print "You guessed the correct number!"
  end  
  end
     
