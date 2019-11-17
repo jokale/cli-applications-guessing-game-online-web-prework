@@ -13,5 +13,15 @@ end
 
 
   
-
+def run_guessing_game
+  rand()
+  user_input.gets 
+  puts "Goodbye!"
+  if rand > 6
+    puts "Sorry! The computer guessed <number>."
+    elsif
+    rand < 6 
+    puts "You guessed the correct number!"
+ end  
+ end
     
