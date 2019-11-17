@@ -1,13 +1,13 @@
 # Code your solution here!
 def run_guessing_game
- random_guess = rand(6) + 1 
+ computer_guess = rand(6) + 1 
 user_input = gets.chomp 
  if user_input = "exit"
   puts "Goodbye!"
-  elsif user_input.to_i = random_guess
+  elsif user_input.to_i = computer_guess
 print "You guessed the correct number!"
  else
-print "Sorry! The computer guessed #{random_guess}."
+print "Sorry! The computer guessed #{computer_guess}."
   end
 end
 
