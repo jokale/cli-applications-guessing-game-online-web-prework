@@ -1,6 +1,7 @@
 # Code your solution here!
 # def run_guessing_game
-#   random_guess = rand(1..6)
+#   random_guess = rand(6)+ 1 
+user_input
 #   gets 
 #   puts "Goodbye!"
 #   if rand > 5
